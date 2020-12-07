@@ -1,42 +1,48 @@
-body {
-    margin: 0;
-    padding-top: 800px;
-    text-align: center
+navbar {
+    text-align: center;
+    font-size: 500px;
 }
 
-.profile {
-    width: 75px;
+body {
+    text-align: center;
+    text-decoration-color: cornflowerblue;
+}
+
+#contact {
+    width: 1500px;
     margin-bottom: 50px;
     border-radius: 50%;
+    background-color: deepskyblue;
+    text-align: center;
+    height:200;
 }
 
-#welcome {
+#VIBGYOR {
     position: absolute;
-    overflow: hidden;
-    height: 700px;
-    z-index: 9;
-    color: #FFFFFF;
+    height: 800px;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.83;
-    background: linear-gradient(#E91E63 0%, #03A9F4 100%);
-    display: table;
-    width: 100%;
+    color: aqua;
+}
+
+p {
+    text-decoration-color: azure;
 }
 
 h1 {
     font-size: 40px;
     line-height: 1.2;
-    font-family: 'Comic', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
-#name {
+#videos {
     font-size: 30px;
     line-height: 1.2;
     font-family: 'Dosis', sans-serif;
+    background-color: cornflowerblue;
 }
 
 h2 {
@@ -44,84 +50,8 @@ h2 {
     font-weight: 300;
     line-height: 1.2;
     font-family: monospace;
-}
 
-#bio {
-    padding: 50px;
-    text-align: center;
-    font-size: 42px;
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
-}
-
-p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
-}
-
-.parallax-inner {
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.menu {
-    list-style: none;
-    font-family: fantasy;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin-top: 0px;
-    background-color: darkmagenta;
-    z-index: 10;
-    cursor: pointer;
-    height: 500%;
-}
-
-.links {
-    padding-left: 33px;
-    padding-right: 25px;
-    display: inline;
-    font-family: sans-serif;
-    font-size: 20px;
-    color: crimson;
-}
-
-.links:hover {
-    background-color: blueviolet;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-    color: darkblue;
-    text-shadow: 2px 2px gainsboro;
-}
-
-.article:hover {
-    color: darkgoldenrod;
-}
-
-#writings a {
-    text-shadow: none !important;
-    text-decoration: underline !important;
-    color: blue !important
-}
-
-.contact_1 a {
-    color: deeppink;
-    text-shadow: none;
-}
-
-.contact_1 h3 {
-    display: inline;
-}
+    center {
+        font-size: 30px;
+        background-color: cadetblue;
+    }
